@@ -1,4 +1,15 @@
 /* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    width: 100vw; /* Force la largeur à 100% de l'écran */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
