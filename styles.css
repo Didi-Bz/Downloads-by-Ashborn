@@ -38,7 +38,7 @@ header {
     height: 70px;
 }
 .logo-text {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     color: #ffffff;
 }
@@ -48,7 +48,7 @@ header {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 .app-logo {
     width: 100px;
