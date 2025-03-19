@@ -100,7 +100,7 @@
         let elements = document.querySelectorAll('.animate');
         function reveal() {
             elements.forEach(el => {
-                let position = el.getBoundingClientRect().top;
+                let position = el.getBoundingClientRect().top + window.scrollY;
                 let windowHeight = window.innerHeight;
                 if (position < windowHeight - 50) {
                     el.classList.add("visible");

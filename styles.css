@@ -236,3 +236,14 @@ footer a:hover {
         width: 100%;
     }
 }
+html, body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 600px) {
+    .step {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
